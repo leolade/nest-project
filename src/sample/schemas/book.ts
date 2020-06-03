@@ -7,7 +7,7 @@ export class Book extends Document {
     title: string;
 
     @Prop()
-    author: number;
+    author: string;
 }
 
 export const BookSchema = SchemaFactory.createForClass(Book);
